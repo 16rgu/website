@@ -1,0 +1,194 @@
+/*
+Mobile ctrl shift i
+
+
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+body, html{
+    height: calc(100% - 2em);
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+
+body {
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4a00fb+0,e600ff+100 */
+    background: #1B1BB3;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+aside {
+    color: #FFFFFF;
+    display: grid;
+    grid-template-columns: auto 40px;
+    padding: 2em;
+}
+
+img{
+    width: 40px;
+    cursor: pointer;
+}
+
+figure{
+    margin: 0;
+}
+
+figcaption{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+nav {
+    background: #FFFFFF;
+
+}
+
+.active{
+    position: absolute;
+    display: block;
+    background: #FFFFFF;
+    width: 50%;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+
+ul {
+    display: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .8em;
+    display: block;
+    padding: 1.5em 3em;
+    background-color: rgba(255, 255, 255, .35);
+    color: #000000;
+}
+
+main {
+    background: white;
+    padding: 1em 1.4em;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+button{
+    display: block;
+    color: white;
+    background: #0e7fff;
+    text-decoration: none;
+    padding: 8px 50px;
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 4px;
+    margin: 2em 0;
+}
+
+@media only screen and (min-width: 768px) {
+    body{
+        display: grid;
+        grid-template-columns: 20% auto;
+        padding: 2em;
+    }
+
+    #menu{
+        display: none;
+    }
+
+    aside{
+        background: #dce1f6;
+        grid-template-columns: auto;
+        grid-template-rows: 20% auto;
+        padding: 0;
+    }
+
+    main {
+        padding: 4em;
+        background: white;
+        background-size: 70%;
+    }
+
+    #avatar {
+        border-radius: 50%;
+        background: white;
+        width: 50px;
+        height: 50px;
+        margin: 2em auto 1em auto;
+    }
+
+    #selfpic{
+        padding: auto;
+    }
+
+    figure {
+        float: right;
+        width: 20%;
+        text-align: center;
+        font-style: italic;
+        font-size: smaller;
+        text-indent: 0;
+        border: thin silver solid;
+        margin: 0.5em;
+        padding: 0.5em;
+    }
+
+    figcaption{
+        text-align: center;
+        color: black;
+    }
+
+
+
+    ul{
+        display: block;
+        margin-top: 2em;
+        position: relative !important;
+        background: none !important;
+        width: 100% !important;
+    }
+
+    ul li a:hover {
+        background-color: white;
+    }
+
+    
+
+
+
+    nav {
+        background: none;
+    }
+
+    .cta {
+        display:inline-block;
+        font-size: 1.3em;
+        padding: .8em 3em;
+    }
+
+    h1{
+        font-size: 3em;
+        margin-top: 2em;
+    }
+
+    p{
+        font-size: 1em;
+    }
+}

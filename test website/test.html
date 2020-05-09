@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+    <body>
+        <aside>
+            <!--
+            
+            <figure>
+                <div id= "avatar"></div>
+                <figcaption>Raymond Gu</figcaption>
+            </figure>
+        -->
+            <img id = "menu" src="images/menu.svg">
+            <nav>
+                <ul id= "ulist">
+                    <li id="home"><a href="#"> Home </a></li>
+                    <li id="about"><a href="#"> About Me</a></li>
+                    <li id="port"><a href="#"> Portfolio</a></li>
+                    <li id="skills"><a href="#"> Skills</a> </li>
+                    <li id="contact"><a href="#"> Contact</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main id="body">
+            <h1>Raymond Gu</h1>
+            <p id="text"> My name is Raymond Gu. I am a second semester senior pursuing a degree
+                in Computer Science at Cornell University. 
+            </p>
+
+
+        <!--    <button id="button">
+                My portfolio
+            </button> -->
+        </main>
+
+        <script src="main.js">
+
+            (function() {
+                var menu = document.querySelector('ul'),
+                menulink = document.querySelector('img');
+
+                menulink.addEventListener('click', function(e){
+                    menu.classList.toggle('active');
+                    e.preventDefault();
+                })
+            })();
+
+        </script>
+    </body>
+</html>
