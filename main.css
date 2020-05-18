@@ -17,7 +17,7 @@ body, html{
 
 body {
         /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4a00fb+0,e600ff+100 */
-    background: #1B1BB3;
+    background: #add8e6;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -58,14 +58,14 @@ nav {
     height: 100%;
 }
 
-ul {
+#ulist {
     display: none;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-ul li a{
+#ulist li a{
     text-decoration: none;
     text-transform: uppercase;
     font-size: .8em;
@@ -156,8 +156,7 @@ button{
     }
 
 
-
-    ul{
+    #ulist{
         display: block;
         margin-top: 2em;
         position: relative !important;
@@ -165,7 +164,7 @@ button{
         width: 100% !important;
     }
 
-    ul li a:hover {
+    #ulist li a:hover {
         background-color: white;
     }
 
